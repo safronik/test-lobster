@@ -8,7 +8,7 @@ There is no comment because I have no time left. I applogize for that.
 You can see it in action at test-lobster.webtm.ru
 
 Main routes:
-/admin - you can manage lotteries there.
+/admin - you can add lotteries there.
 /participate - participate in a lottery.
 /* - same as previous
 
