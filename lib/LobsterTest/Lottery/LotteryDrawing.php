@@ -25,7 +25,7 @@ class LotteryDrawing
         
         // Transaction
         
-        $this->lottery->isRollInProgress()
+        ! $this->lottery->isRollInProgress()
             || throw new \Exception('Failed to roll, because transaction is in progress');
         
          $this->lottery->pause();
